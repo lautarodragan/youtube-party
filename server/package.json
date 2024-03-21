@@ -1,0 +1,31 @@
+{
+  "name": "nooks-takehome-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "watch": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lautarodragan/nooks-takehome-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lautarodragan/nooks-takehome-backend/issues"
+  },
+  "homepage": "https://github.com/lautarodragan/nooks-takehome-backend#readme",
+  "devDependencies": {
+    "nodemon": "2.0.20"
+  },
+  "dependencies": {
+    "body-parser": "1.20.0",
+    "cors": "2.8.5",
+    "express": "4.18.1",
+    "ws": "8.9.0"
+  }
+}
